@@ -1,4 +1,15 @@
 # Operating System
+## ANDROID
+
+#### Appium Server Gui
+##### Configurations
+- ANDROID_HOME **/home/mdrakibulhasan/Android/Sdk**
+- JAVA_HOME **/usr/bin/java**
+##### Advance
+- Server Address **localhost**
+- Port **4723**
+- Allow CORS
+
 ## MAC
 ### Tools
 - Appium Server Gui
@@ -22,9 +33,9 @@
 ##### Desired Capabilities
 ###### JSON Representation
 ````json
-{
-    "appium:app": "//Users//r_hasan//Desktop//appium-starter//src//main//resources//TLOps_7August2022_Local.apk",
-    "appium:deviceName": "Pixel 4 API 33",
+`{
+    "appium:app": "/run/media/mdrakibulhasan/IF/trucklagbe_qa/appium-playground/src/main/resources/TL_OPS_19jan2023.apk",
+    "appium:deviceName": "TestBethi",
     "platformName": "android",
     "appium:automationName": "UIAutomator2"
-}
+}`
